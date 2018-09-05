@@ -22,7 +22,7 @@ namespace BabySitterKata.UnitTests.CalculatorTests
             Assert.AreEqual(result, expectedTime);
         }
 
-        private IEnumerable<TestCaseData> GetTestCasesForTimeConversion()
+        private static IEnumerable<TestCaseData> GetTestCasesForTimeConversion()
         {
             yield return new TestCaseData("5:00PM", DateTime.Today.AddHours(17));
             yield return new TestCaseData("6:00PM", DateTime.Today.AddHours(18));
