@@ -10,7 +10,7 @@ namespace BabySitterKata.UnitTests.CalculatorTests
         [Test]
         public void CallingSalaryCalculatorWithStringsReturnsNotNull()
         {
-            // Act 
+            // Arrange
             ISalaryCalculator calculator= new SalaryCalculator();
             string startTime = "4:00PM";
             string endTime = "5:00PM";
