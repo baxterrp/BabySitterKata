@@ -6,7 +6,7 @@ namespace BabySitterKata
     {
         public decimal Calculate(string startTime, string endTime)
         {
-            throw new System.NotImplementedException();
+            return decimal.Zero;
         }
     }
 }
